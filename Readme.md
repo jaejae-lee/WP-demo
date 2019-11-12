@@ -1,1 +1,0 @@
-## twentysixteen-child theme
