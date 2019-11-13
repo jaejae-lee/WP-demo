@@ -12,7 +12,6 @@
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
-	<p>Exercise text this is HTML paragraph on content-page.php file</p>
 
 	<?php twentysixteen_post_thumbnail(); ?>
 
@@ -31,6 +30,12 @@
 			)
 		);
 		?>
+
+		<?php
+		if ( get_field( 'phone_number' ) ){  ?>
+			<h2> <?php the_field( 'phone_number' )?> </h2>
+		<?php } ?>
+
 	</div><!-- .entry-content -->
 
 	<?php
@@ -46,3 +51,7 @@
 		?>
 
 </article><!-- #post-<?php the_ID(); ?> -->
+
+
+
+
