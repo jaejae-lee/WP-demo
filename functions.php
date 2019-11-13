@@ -5,3 +5,13 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
 
+//filters
+
+//add_filter ('the_title', 'filter_example');
+
+
+function filter_example($title) {
+	return 'Hooked: '.$title;
+}
+
+

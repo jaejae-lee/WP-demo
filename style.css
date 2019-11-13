@@ -4,3 +4,35 @@
  Description:  This is the first theme created by John a child theme of WordPress' Twenty Sixteen theme
  Template:   twentysixteen
 */
+
+.home .entry-content{
+    color:red; 
+}
+
+/* .post-21 {
+    color:red; 
+}
+
+.post-21 .wp-block-quote{
+    color:red; 
+} */
+
+/* .home {
+    color:red; 
+} */
+
+/* .redtext {
+    color:red;
+}
+
+.redtext ~ div {
+    color:red;
+} */
+
+/* .entry-content {
+    color: pink;
+}
+
+/* .entry-content p{
+    color: pink;
+} */ */
